@@ -42,7 +42,7 @@ pip install -e ".[dev,test]"
 ### Basic Usage
 
 ```python
-from aisearchapi-client import AISearchAPIClient
+from aisearchapi_client import AISearchAPIClient
 
 # Initialize the client
 client = AISearchAPIClient(api_key='your-api-key-here')
@@ -68,7 +68,7 @@ client.close()
 ### Using Context Manager (Recommended)
 
 ```python
-from aisearchapi-client import AISearchAPIClient, ChatMessage
+from aisearchapi_client import AISearchAPIClient, ChatMessage
 
 # Use context manager for automatic resource cleanup
 with AISearchAPIClient(api_key='your-api-key-here') as client:
@@ -89,7 +89,7 @@ with AISearchAPIClient(api_key='your-api-key-here') as client:
 ### Advanced Configuration
 
 ```python
-from aisearchapi-client import AISearchAPIClient
+from aisearchapi_client import AISearchAPIClient
 
 client = AISearchAPIClient(
     api_key='your-api-key-here',
@@ -188,7 +188,7 @@ class BalanceResponse:
 The client provides comprehensive error handling with custom exception types:
 
 ```python
-from aisearchapi-client import AISearchAPIClient, AISearchAPIError
+from aisearchapi_client import AISearchAPIClient, AISearchAPIError
 
 try:
     with AISearchAPIClient(api_key='your-api-key') as client:
@@ -229,7 +229,7 @@ Then use it in your code:
 
 ```python
 import os
-from aisearchapi-client import AISearchAPIClient
+from aisearchapi_client import AISearchAPIClient
 
 api_key = os.getenv('AI_SEARCH_API_KEY')
 client = AISearchAPIClient(api_key=api_key)
@@ -256,7 +256,7 @@ Check out the [examples](examples/) directory for more comprehensive usage examp
 
 ```bash
 git clone https://github.com/aisearchapi/aisearchapi-python.git
-cd aisearchapi-python
+cd aisearchapi_client-python
 
 # Create virtual environment
 python -m venv venv

@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aisearchapi-python"
-version = "1.0.0"
+name = "aisearchapi-client"
+version = "1.0.1"
 description = "Python client library for AI Search API - search and retrieve intelligent responses with context awareness"
 readme = "README.md"
 license = {file = "LICENSE"}
