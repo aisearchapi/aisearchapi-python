@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aisearchapi"
+name = "aisearchapi-python"
 version = "1.0.0"
 description = "Python client library for AI Search API - search and retrieve intelligent responses with context awareness"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-    {name = "AI Search API", email = "support@aisearchapi.io"}
+    {name = "AI Search API", email = "admin@aisearchapi.io"}
 ]
 maintainers = [
-    {name = "AI Search API", email = "support@aisearchapi.io"}
+    {name = "AI Search API", email = "admin@aisearchapi.io"}
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -38,8 +38,7 @@ keywords = [
     "llm",
     "embeddings", 
     "semantic-search",
-    "machine-learning",
-    "natural-language-processing"
+    "machine-learning"
 ]
 requires-python = ">=3.8"
 dependencies = [

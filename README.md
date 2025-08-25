@@ -1,6 +1,6 @@
 # AI Search API Python Client
 
-[![PyPI version](https://badge.fury.io/py/aisearchapi.svg)](https://badge.fury.io/py/aisearchapi)
+[![PyPI version](https://badge.fury.io/py/aisearchapi.svg)](https://badge.fury.io/py/aisearchapi-python)
 [![Python Support](https://img.shields.io/pypi/pyversions/aisearchapi.svg)](https://pypi.org/project/aisearchapi/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
