@@ -6,7 +6,7 @@ capabilities with context awareness and semantic understanding.
 
 Example:
     ```python
-    from aisearchapi import AISearchAPIClient, ChatMessage
+    from aisearchapi_client import AISearchAPIClient, ChatMessage
     
     client = AISearchAPIClient(api_key='your-api-key-here')
     

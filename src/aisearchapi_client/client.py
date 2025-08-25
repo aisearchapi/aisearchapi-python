@@ -6,7 +6,7 @@ including intelligent search with context awareness and account balance checking
 
 Example:
     ```python
-    from aisearchapi import AISearchAPIClient
+    from aisearchapi_client import AISearchAPIClient
     
     client = AISearchAPIClient(api_key='your-api-key-here')
     
