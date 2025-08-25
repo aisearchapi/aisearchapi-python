@@ -1,7 +1,7 @@
 # AI Search API Python Client
 
 [![PyPI version](https://badge.fury.io/py/aisearchapi.svg)](https://badge.fury.io/py/aisearchapi-python)
-[![Python Support](https://img.shields.io/pypi/pyversions/aisearchapi.svg)](https://pypi.org/project/aisearchapi/)
+[![Python Support](https://img.shields.io/pypi/pyversions/aisearchapi.svg)](https://pypi.org/project/aisearchapi-python/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python client library for the AI Search API that provides intelligent search capabilities with context awareness and semantic understanding.
