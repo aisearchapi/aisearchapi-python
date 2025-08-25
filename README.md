@@ -1,7 +1,7 @@
 # AI Search API Python Client
 
-[![PyPI version](https://badge.fury.io/py/aisearchapi.svg)](https://badge.fury.io/py/aisearchapi-python)
-[![Python Support](https://img.shields.io/pypi/pyversions/aisearchapi.svg)](https://pypi.org/project/aisearchapi-python/)
+[![PyPI version](https://badge.fury.io/py/aisearchapi.svg)](https://badge.fury.io/py/aisearchapi-client)
+[![Python Support](https://img.shields.io/pypi/pyversions/aisearchapi.svg)](https://pypi.org/project/aisearchapi-client/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python client library for the AI Search API that provides intelligent search capabilities with context awareness and semantic understanding.
@@ -20,7 +20,7 @@ A Python client library for the AI Search API that provides intelligent search c
 Install the package using pip:
 
 ```bash
-pip install aisearchapi
+pip install aisearchapi-client
 ```
 
 Or install from source:
@@ -42,7 +42,7 @@ pip install -e ".[dev,test]"
 ### Basic Usage
 
 ```python
-from aisearchapi import AISearchAPIClient
+from aisearchapi-client import AISearchAPIClient
 
 # Initialize the client
 client = AISearchAPIClient(api_key='your-api-key-here')
@@ -68,7 +68,7 @@ client.close()
 ### Using Context Manager (Recommended)
 
 ```python
-from aisearchapi import AISearchAPIClient, ChatMessage
+from aisearchapi-client import AISearchAPIClient, ChatMessage
 
 # Use context manager for automatic resource cleanup
 with AISearchAPIClient(api_key='your-api-key-here') as client:
@@ -89,7 +89,7 @@ with AISearchAPIClient(api_key='your-api-key-here') as client:
 ### Advanced Configuration
 
 ```python
-from aisearchapi import AISearchAPIClient
+from aisearchapi-client import AISearchAPIClient
 
 client = AISearchAPIClient(
     api_key='your-api-key-here',
@@ -188,7 +188,7 @@ class BalanceResponse:
 The client provides comprehensive error handling with custom exception types:
 
 ```python
-from aisearchapi import AISearchAPIClient, AISearchAPIError
+from aisearchapi-client import AISearchAPIClient, AISearchAPIError
 
 try:
     with AISearchAPIClient(api_key='your-api-key') as client:
@@ -229,7 +229,7 @@ Then use it in your code:
 
 ```python
 import os
-from aisearchapi import AISearchAPIClient
+from aisearchapi-client import AISearchAPIClient
 
 api_key = os.getenv('AI_SEARCH_API_KEY')
 client = AISearchAPIClient(api_key=api_key)
