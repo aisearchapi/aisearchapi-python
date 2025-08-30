@@ -41,7 +41,7 @@ from .types import (
 
 __version__ = "1.0.0"
 __author__ = "AI Search API"
-__email__ = "support@aisearchapi.io"
+__email__ = "admin@aisearchapi.io"
 
 __all__ = [
     # Main client class
