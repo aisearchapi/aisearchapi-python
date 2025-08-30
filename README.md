@@ -218,6 +218,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Documentation**: [docs.aisearchapi.io](https://docs.aisearchapi.io/)  
 - **Homepage**: [aisearchapi.io](https://aisearchapi.io/)  
 - **Issues**: [GitHub Issues](https://github.com/aisearchapi/aisearchapi-python/issues)  
+- **Blog**: [Blog Posts](https://aisearchapi.io/blog/)
 - **Email**: admin@aisearchapi.io  
 
 ---
