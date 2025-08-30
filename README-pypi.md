@@ -164,7 +164,7 @@ pytest
 
 ## License
 
-MIT License - see the [LICENSE](LICENSE) file.
+MIT License - see the [LICENSE](https://github.com/aisearchapi/aisearchapi-python/blob/main/LICENSE) file.
 
 ---
 
