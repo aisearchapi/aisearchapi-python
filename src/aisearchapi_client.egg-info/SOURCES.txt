@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/aisearchapi_client/__init__.py
+src/aisearchapi_client/client.py
+src/aisearchapi_client/py.typed
+src/aisearchapi_client/types.py
+src/aisearchapi_client.egg-info/PKG-INFO
+src/aisearchapi_client.egg-info/SOURCES.txt
+src/aisearchapi_client.egg-info/dependency_links.txt
+src/aisearchapi_client.egg-info/not-zip-safe
+src/aisearchapi_client.egg-info/requires.txt
+src/aisearchapi_client.egg-info/top_level.txt
