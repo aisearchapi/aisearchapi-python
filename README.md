@@ -4,7 +4,7 @@
 [![Python Support](https://img.shields.io/pypi/pyversions/aisearchapi-client.svg)](https://pypi.org/project/aisearchapi-client/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A **Python client library for the [AI Search API](https://aisearchapi.io/)** that provides **semantic search, contextual awareness, and intelligent AI-powered results**.  
+A **Python client library for the [AI Search API](https://aisearchapi.io?utm_source=python_client)** that provides **semantic search, contextual awareness, and intelligent AI-powered results**.  
 This package makes it easy for developers to integrate the [AI Search API](https://docs.aisearchapi.io/) into Python projects.
 
 👉 To start, get your **free API key** from the [AI Search API dashboard](https://app.aisearchapi.io/dashboard).
