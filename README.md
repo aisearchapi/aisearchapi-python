@@ -4,7 +4,7 @@
 [![Python Support](https://img.shields.io/pypi/pyversions/aisearchapi-client.svg)](https://pypi.org/project/aisearchapi-client/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A **Python client library for the [AI Search API](https://aisearchapi.io?utm_source=python_client)** that provides **semantic search, contextual awareness, and intelligent AI-powered results**.  
+A **Python client library for the [AI Search API](https://aisearchapi.io?utm_source=github)** that provides **semantic search, contextual awareness, and intelligent AI-powered results**.  
 This package makes it easy for developers to integrate the [AI Search API](https://docs.aisearchapi.io/) into Python projects.
 
 👉 To start, get your **free API key** from the [AI Search API dashboard](https://app.aisearchapi.io/dashboard).
@@ -13,11 +13,11 @@ This package makes it easy for developers to integrate the [AI Search API](https
 
 ## Features
 
-- **🔍 AI-Powered Semantic Search**: Leverage advanced embeddings for natural language search
-- **🎯 Context Awareness**: Add conversation history for smarter results
-- **⚡ Simple API Client**: Clean and Pythonic interface with strong error handling
-- **🛡️ Type Safety**: Full type hints for modern development
-- **🔄 Flexible Output**: Choose between plain text or markdown responses
+- **🔍 AI-Powered Semantic Search**: Natural language search powered by embeddings  
+- **🎯 Context Awareness**: Include history for smarter results  
+- **⚡ Simple API Client**: Clean Python interface with error handling  
+- **🛡️ Type Safety**: Strong type hints  
+- **🔄 Flexible Output**: Get text or markdown results  
 - **💰 Usage Tracking**: Monitor your [API credit balance](https://app.aisearchapi.io/dashboard) anytime
 
 ---
@@ -44,7 +44,7 @@ pip install -e .
 
 ### Get Your API Key
 
-1. Sign up at [aisearchapi.io](https://aisearchapi.io/).  
+1. Sign up at [aisearchapi.io](https://aisearchapi.io?utm_source=github).  
 2. Log in to the [dashboard](https://app.aisearchapi.io/login).  
 3. Copy your API key.  
 
@@ -114,29 +114,6 @@ client = AISearchAPIClient(
 
 Full API reference is available in the [official documentation](https://docs.aisearchapi.io/).
 
-### `AISearchAPIClient`
-
-#### Constructor
-
-```python
-AISearchAPIClient(
-    api_key: str,
-    base_url: str = "https://api.aisearchapi.io",
-    timeout: int = 30
-)
-```
-
-- **api_key**: Get yours from the [dashboard](https://app.aisearchapi.io/dashboard)
-- **base_url**: Optional custom endpoint
-- **timeout**: Timeout in seconds
-
-#### Methods
-
-- **search(prompt, context=None, response_type=None)** → Perform an AI-powered semantic search
-- **balance()** → Check current credit usage
-
-For more, see [API docs](https://docs.aisearchapi.io/).
-
 ---
 
 ## Error Handling
@@ -156,13 +133,11 @@ except AISearchAPIError as e:
 
 ## Environment Variables
 
-You can set your API key globally:
-
 ```bash
 export AI_SEARCH_API_KEY="your-api-key-here"
 ```
 
-Then use:
+Then use in Python:
 
 ```python
 import os
@@ -171,25 +146,6 @@ from aisearchapi_client import AISearchAPIClient
 api_key = os.getenv("AI_SEARCH_API_KEY")
 client = AISearchAPIClient(api_key=api_key)
 ```
-
----
-
-## Examples
-
-Find more examples in the [examples/ folder](examples/) or check the [documentation](https://docs.aisearchapi.io/):
-
-- Basic search and balance checking  
-- Contextual search with history  
-- Async usage  
-- Error handling  
-
----
-
-## Requirements
-
-- Python 3.8+
-- requests >= 2.25.0
-- typing-extensions >= 4.0.0 (if Python < 3.10)
 
 ---
 
@@ -208,21 +164,13 @@ pytest
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file.
+MIT License - see the [LICENSE](LICENSE) file.
 
 ---
 
-## Support & Links
+## Support
 
 - **Get API Key**: [AI Search API Dashboard](https://app.aisearchapi.io/dashboard)  
 - **Documentation**: [docs.aisearchapi.io](https://docs.aisearchapi.io/)  
-- **Homepage**: [aisearchapi.io](https://aisearchapi.io/)  
+- **Homepage**: [aisearchapi.io](https://aisearchapi.io?utm_source=github)  
 - **Issues**: [GitHub Issues](https://github.com/aisearchapi/aisearchapi-python/issues)  
-- **Blog**: [Blog Posts](https://aisearchapi.io/blog/)
-- **Email**: admin@aisearchapi.io  
-
----
-
-## SEO Keywords
-
-*AI search API Python client, semantic search Python, contextual AI search, AI API key, AI dashboard, intelligent search SDK*  
